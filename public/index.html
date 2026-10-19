@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>eFootball Coins Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="top-bar">
+      <h1>⚡ Progress Dashboard</h1>
+      <label class="theme-toggle">
+        <input type="checkbox" id="themeSwitch" />
+        <div class="slider">
+          <span class="icon">🌙</span>
+          <span class="icon">☀️</span>
+        </div>
+      </label>
+    </div>
+
+    <div class="container" id="cardContainer"></div>
+
+    <div class="notification" id="notification" role="status" aria-live="polite">
+      Updated
+    </div>
+
+    <footer>Max value for each bar: 13,500</footer>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
