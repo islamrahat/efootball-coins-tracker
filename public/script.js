@@ -30,7 +30,8 @@ const users = [
   { name: "Minhaz", id: "minhaz" },
   { name: "Aqil", id: "aqil" },
   { name: "Shopnil", id: "shopnil" },
-  { name: "Affan", id: "affann" }
+  { name: "Affan", id: "affan" },
+  { name: "Alim", id: "alim" },
 ];
 
 const container = document.getElementById("cardContainer");
